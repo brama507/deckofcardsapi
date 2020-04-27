@@ -14,8 +14,11 @@ GET https://deckofcardsapi.com/api/deck/{deck_id}/draw/?count={count_value}.
         count_value: number of cards to draw.    
 
 ## Code Samples
-
-> 	@Test(priority = 1)
+	/**
+	 * This is the test case to create new deck of cards that includes Jokers.
+	 * 
+	 */
+ 	@Test(priority = 1)
 	public void createNewDeckOfCardsWithJoker() {   
 		createNewDeckOfCards(true);
 	}
