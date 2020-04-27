@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7740" started-at="2020-04-27T03:41:49Z" finished-at="2020-04-27T03:41:56Z">
+    <groups>
+    </groups>
+    <test name="DeckOfCardsApiTests" duration-ms="7740" started-at="2020-04-27T03:41:49Z" finished-at="2020-04-27T03:41:56Z">
+      <class name="com.deckofcardsapi.tests.DeckOfCardsApiTests">
+        <test-method status="PASS" signature="getBaseUri()[pri:0, instance:com.deckofcardsapi.tests.DeckOfCardsApiTests@6b2fad11]" name="getBaseUri" is-config="true" duration-ms="791" started-at="2020-04-26T20:41:49Z" finished-at="2020-04-26T20:41:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBaseUri -->
+        <test-method status="PASS" signature="createNewDeckOfCardsWithJoker()[pri:0, instance:com.deckofcardsapi.tests.DeckOfCardsApiTests@6b2fad11]" name="createNewDeckOfCardsWithJoker" duration-ms="4919" started-at="2020-04-26T20:41:50Z" finished-at="2020-04-26T20:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeckOfCardsWithJoker -->
+        <test-method status="PASS" signature="createNewDeckOfCardsWithoutJoker()[pri:0, instance:com.deckofcardsapi.tests.DeckOfCardsApiTests@6b2fad11]" name="createNewDeckOfCardsWithoutJoker" duration-ms="317" started-at="2020-04-26T20:41:54Z" finished-at="2020-04-26T20:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewDeckOfCardsWithoutJoker -->
+        <test-method status="PASS" signature="drawTwoCardsFromDeckWithJoker()[pri:0, instance:com.deckofcardsapi.tests.DeckOfCardsApiTests@6b2fad11]" name="drawTwoCardsFromDeckWithJoker" duration-ms="486" started-at="2020-04-26T20:41:55Z" depends-on-methods="com.deckofcardsapi.tests.DeckOfCardsApiTests.createNewDeckOfCardsWithJoker" finished-at="2020-04-26T20:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drawTwoCardsFromDeckWithJoker -->
+        <test-method status="PASS" signature="drawFourCardsFromDeckWithoutJoker()[pri:0, instance:com.deckofcardsapi.tests.DeckOfCardsApiTests@6b2fad11]" name="drawFourCardsFromDeckWithoutJoker" duration-ms="385" started-at="2020-04-26T20:41:55Z" depends-on-methods="com.deckofcardsapi.tests.DeckOfCardsApiTests.createNewDeckOfCardsWithoutJoker" finished-at="2020-04-26T20:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drawFourCardsFromDeckWithoutJoker -->
+        <test-method status="PASS" signature="drawNoCardsFromDeckWithJoker()[pri:0, instance:com.deckofcardsapi.tests.DeckOfCardsApiTests@6b2fad11]" name="drawNoCardsFromDeckWithJoker" duration-ms="437" started-at="2020-04-26T20:41:56Z" depends-on-methods="com.deckofcardsapi.tests.DeckOfCardsApiTests.createNewDeckOfCardsWithJoker" finished-at="2020-04-26T20:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drawNoCardsFromDeckWithJoker -->
+        <test-method status="PASS" signature="drawFiveCardsFromDeckWithJoker()[pri:0, instance:com.deckofcardsapi.tests.DeckOfCardsApiTests@6b2fad11]" name="drawFiveCardsFromDeckWithJoker" duration-ms="396" started-at="2020-04-26T20:41:56Z" depends-on-methods="com.deckofcardsapi.tests.DeckOfCardsApiTests.createNewDeckOfCardsWithoutJoker" finished-at="2020-04-26T20:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drawFiveCardsFromDeckWithJoker -->
+      </class> <!-- com.deckofcardsapi.tests.DeckOfCardsApiTests -->
+    </test> <!-- DeckOfCardsApiTests -->
+  </suite> <!-- Suite -->
+</testng-results>
